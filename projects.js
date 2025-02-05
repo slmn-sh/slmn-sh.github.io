@@ -1,7 +1,7 @@
 const request = new XMLHttpRequest();
 const projectList = document.querySelector(".project-list");
 const template = document.querySelector("#project").innerHTML;
-request.open("GET", "https://api.github.com/users/salmannotkhan/starred");
+request.open("GET", "https://api.github.com/users/slmn-sh/starred");
 request.responseType = "json";
 request.send();
 
